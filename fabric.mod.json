@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnerhl",
+  "version": "${version}",
+  "name": "Spawner Highlight",
+  "description": "Highlights every chunk that contains a spawner on a small chunk map. Includes a customisable settings menu (default key: U-umlaut).",
+  "authors": ["Spawner Highlight"],
+  "license": "MIT",
+  "icon": "assets/spawnerhl/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.spawnerhl.client.SpawnerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
